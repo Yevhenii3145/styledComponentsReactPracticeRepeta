@@ -1,0 +1,28 @@
+.chip {
+    /* position: absolute; */
+    top: 4px;
+    right: 4px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff
+}
+
+.free {
+    background-color: green;
+}
+.paid {
+    background-color: blue;
+}
+
+.vip {
+    background-color: red;
+}
+
+.icon {
+    background-color: brown;
+    color:blue;
+    margin-right: 8px;
+    display: block;
+}
