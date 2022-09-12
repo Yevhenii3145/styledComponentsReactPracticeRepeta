@@ -4,7 +4,7 @@ import {AiFillDislike, AiFillAmazonCircle, AiFillCodeSandboxCircle, AiFillBug } 
 import {formatEventDuration, formatEventStart} from '../utils'
 // import { formatEventStart } from '../utils/formatEventStart'
 // import { formatEventDuration } from '../utils/formatEventDuration'
-import css from './Event.module.css'
+// import css from './Event.module.css'
 import { iconSize } from '../constants'
 import {Card, EventName,Info,Chip} from './Event.styled'
 
@@ -13,8 +13,6 @@ export const Event = ({ name, location, speaker, type, start, end }) => {
     const formattedStart = formatEventStart(start)
     const duration = formatEventDuration(start, end)
 
-    console.log(css)
-    console.log(css[type])
     return (
         <Card>
             <EventName>{name}</EventName>
