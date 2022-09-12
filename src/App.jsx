@@ -1,13 +1,14 @@
 import { PageTitle } from "components/PageTitle/PageTitle";
 import {EventBoard} from 'components/EventBoard/EventBoard'
 import upcomingEvents from './upcoming.json'
+import { Container } from "components/Container/Container.styled";
 
 
 export const App = () => {
   return (
-    <div>
+    <Container >
      <PageTitle text="24th Core Worlds Coalition Conference" />
     <EventBoard events={upcomingEvents} />
-    </div>
+    </Container>
   );
 }
