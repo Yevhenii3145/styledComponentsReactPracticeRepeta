@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/styledComponentsRectPracticeRepeta/static/css/main.58e0991d.css",
-    "main.js": "/styledComponentsRectPracticeRepeta/static/js/main.0609eff0.js",
+    "main.js": "/styledComponentsRectPracticeRepeta/static/js/main.a3b348fa.js",
     "index.html": "/styledComponentsRectPracticeRepeta/index.html",
     "main.58e0991d.css.map": "/styledComponentsRectPracticeRepeta/static/css/main.58e0991d.css.map",
-    "main.0609eff0.js.map": "/styledComponentsRectPracticeRepeta/static/js/main.0609eff0.js.map"
+    "main.a3b348fa.js.map": "/styledComponentsRectPracticeRepeta/static/js/main.a3b348fa.js.map"
   },
   "entrypoints": [
     "static/css/main.58e0991d.css",
-    "static/js/main.0609eff0.js"
+    "static/js/main.a3b348fa.js"
   ]
 }
