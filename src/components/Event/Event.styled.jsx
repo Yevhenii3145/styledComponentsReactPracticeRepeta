@@ -38,7 +38,7 @@ svg {
 }
 `;
 
-const setBgColor = ({eventType, theme}) => {
+export const setBgColor = ({eventType, theme}) => {
     console.log(theme)
     switch (eventType) {
         case 'free':
